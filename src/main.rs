@@ -140,6 +140,9 @@ fn get_max_usable_stack() -> usize {
 
 #[embassy_executor::main]
 async fn main(spawner: Spawner) {
+    unsafe {
+        cortex_m::interrupt::enable();
+    }
     let p = embassy_rp::init(Default::default());
     crate::heap::init_heap();
 

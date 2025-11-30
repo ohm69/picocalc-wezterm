@@ -1,4 +1,5 @@
-CHIP=pimoroni2w
+CHIP=pico2w
+#pimoroni2w
 
 check:
 	cargo +nightly check --features $(CHIP)

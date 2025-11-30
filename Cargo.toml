@@ -60,6 +60,7 @@ wezterm-cell = { git="https://github.com/wezterm/wezterm", default-features=fals
 wezterm-char-props = { git="https://github.com/wezterm/wezterm", default-features=false }
 wezterm-escape-parser = { git="https://github.com/wezterm/wezterm" }
 wezterm-surface = { git="https://github.com/wezterm/wezterm" }
+cortex-m = "0.7.7"
 
 [profile.dev]
 debug = 2
